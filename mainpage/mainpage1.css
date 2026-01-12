@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 3px solid red;
+    background: linear-gradient(to right, rgb(93, 198, 250), rgb(96, 88, 212));
+    color: white;
+    /*padding-right: 50px;*/
+    /*padding: 10px 40px;*/
+}
+.img2{
+    max-width: 170px;
+}
+.head1 {
+    margin: 50px auto;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 800px;
+}
+#vid1{
+    display:block;
+    margin: 15px auto;
+    width: 30%;
+    height: 60%;
+}
+li{
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    color:black;
+    font-size: 1.5rem;
+    display: inline-flex;
+}
+a:hover{
+    color: grey;
+}
+.navbar{
+    width: 50%;
+    height: 25px;
+    max-width: 1200px;
+    padding-left: 170px;
+    display: inline-flex;
+    align-items: center;
+    padding-right: 50px;
+    font-size: 8rem;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+.li1{
+    padding-right: 50px;
+}
+.li2{
+    padding-right: 50px;
+    
+}
+.li3{
+    padding-right: 50px;
+}
+.li4{
+    padding-right: 50px;
+}
+.li5{
+    padding-right: 50px;
+}
+.li6{
+    padding-right: 50px;
+}
+.li7{
+    padding-right: 50px;
+}
+.hr1{
+    width: 80%;
+    margin: 8px auto;
+    border: 2px solid #ccc;
+}
+#p1{
+    padding-left: 170px;
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0 auto;
+}
+#p2{
+    padding-left: 170px;
+    font-size: 30px;
+    margin: 15 auto;
+    font-weight: bold;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+.card{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-content{
+    padding: 16px;
+}
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content p{
+    color: #666;
+    font-size: 15px;
+}
+.card-content .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #fff;
+}
